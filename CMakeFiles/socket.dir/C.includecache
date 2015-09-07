@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/usr1/code/socket/service.c
+stdio.h
+/usr1/code/socket/stdio.h
+string.h
+/usr1/code/socket/string.h
+stdlib.h
+/usr1/code/socket/stdlib.h
+sys/socket.h
+/usr1/code/socket/sys/socket.h
+arpa/inet.h
+/usr1/code/socket/arpa/inet.h
+
